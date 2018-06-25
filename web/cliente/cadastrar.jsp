@@ -7,6 +7,7 @@
     </head>
     <body>
         <h1>Cadastro de Clientes</h1>
+        <a href="listar.jsp"> Listar Clientes</a>
         <%
             String status = request.getParameter("status");
             if(status != null){
@@ -14,8 +15,9 @@
                 if(status.equals("OK")){
                 out.print("Salvo com sucesso");
                 }
+                out.print(status);
             }
-            out.print(status);
+            
         %>
         <form name="formCadastro" method="post" action="inserir.jsp">
             
