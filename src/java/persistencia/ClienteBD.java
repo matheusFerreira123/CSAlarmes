@@ -51,9 +51,6 @@ public class ClienteBD {
         for(int i=0; i < lista.size(); i++){
             Cliente cadaCliente = lista.get(i);
             
-            //procura o cliente que tem o CPF igual 
-            //Ã  variÃ¡vel "cpf", que tÃ¡ chegando entre
-            //os parÃªnteses
             if (cadaCliente.getCpf().equals(cpf)){
                 clienteEncontrado = cadaCliente;
                 break;

@@ -24,20 +24,26 @@
             <label>Nome</label>
             <input type="text" name="nome"/>
             <br/>
+            <br/>
             <label>RG</label>
             <input type="text" name="rg"/>
+            <br/>
             <br/>
             <label>Cpf</label>
             <input type="text" name="cpf"/>
             <br/>
+            <br/>
             <label>Telefone</label>
             <input type="tel" name="telefone"/>
+            <br/>
             <br/>
             <label>Endereço</label>
             <input type="text" name="endereco"/>
             <br/>
+            <br/>
             <label>Email</label>
             <input type="email" name="email"/>
+            <br/>
             <br/>
             
             <input type="submit" value="Salvar"/>
