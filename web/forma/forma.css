@@ -417,8 +417,6 @@ h5{
     margin-top: 45px;
     filter:alpha(opacity=10);
     opacity: 0.8;
-    -moz-opacity:0.1;
-    -webkit-opacity:0.1;
 }
 #d1 img{
     width: 56%;
@@ -437,8 +435,6 @@ h5{
     margin-top: 45px;
     filter:alpha(opacity=10);
     opacity: 0.8;
-    -moz-opacity:0.1;
-    -webkit-opacity:0.1;
 }
 #d2 img{
     width: 75%;
@@ -457,8 +453,6 @@ h5{
     margin-top: 45px;
     filter:alpha(opacity=10);
     opacity: 0.8;
-    -moz-opacity:0.1;
-    -webkit-opacity:0.1;
 }
 #d3 img{                                /*------------------------------------------------------------------*/
     width: 64%;
@@ -477,8 +471,6 @@ h5{
     margin-top: 45px;
     filter:alpha(opacity=10);
     opacity: 0.8;
-    -moz-opacity:0.1;
-    -webkit-opacity:0.1;
 }
 #d4 img{
     width: 58%;
@@ -504,8 +496,6 @@ h5{
     margin-top: 45px;
     filter:alpha(opacity=10);
     opacity: 0.8;
-    -moz-opacity:0.1;
-    -webkit-opacity:0.1;
 }
 
 #opc2{
@@ -519,8 +509,6 @@ h5{
     margin-top: 45px;
     filter:alpha(opacity=10);
     opacity: 0.8;
-    -moz-opacity:0.1;
-    -webkit-opacity:0.1;
 }
 #espaco{
     margin-top: 35px;
@@ -548,8 +536,6 @@ h5{
         margin-left: 2%;
         filter:alpha(opacity=10);
         opacity: 0.8;
-        -moz-opacity:0.1;
-        -webkit-opacity:0.1;
     }
 
     #d2{
@@ -562,36 +548,31 @@ h5{
         margin-top: 45px;
         filter:alpha(opacity=10);
         opacity: 0.8;
-        -moz-opacity:0.1;
-        -webkit-opacity:0.1;
     }
 
     #d3{
-        width: 50%;
+        width: 48%;
         height: 200px;
         float: left;
         background-color: black;
         border: 3px solid #ffffff;
         border-radius: 15px;
         margin-top: 45px;
+        margin-left: 2%;
         filter:alpha(opacity=10);
         opacity: 0.8;
-        -moz-opacity:0.1;
-        -webkit-opacity:0.1;
     }
 
     #d4{
-        width: 50%;
+        width: 48%;
         height: 200px;
-        float: left;
+        float: right;
         background-color: black;
         border: 3px solid #ffffff;
         border-radius: 15px;
         margin-top: 45px;
         filter:alpha(opacity=10);
         opacity: 0.8;
-        -moz-opacity:0.1;
-        -webkit-opacity:0.1;
     }
 
     #assistencia{
@@ -672,8 +653,6 @@ h5{
 
         filter:alpha(opacity=10);
         opacity: 0.8;
-        -moz-opacity:0.1;
-        -webkit-opacity:0.1;
     }
     #d1 img{
         width: 56%;
@@ -693,8 +672,6 @@ h5{
         margin-top: 3px;
         filter:alpha(opacity=10);
         opacity: 0.8;
-        -moz-opacity:0.1;
-        -webkit-opacity:0.1;
     }
 
     #d2 img{
@@ -716,8 +693,14 @@ h5{
         margin-left: 8px;
         filter:alpha(opacity=10);
         opacity: 0.8;
-        -moz-opacity:0.1;
-        -webkit-opacity:0.1;
+    }
+    
+        #d3 img{
+        width: 63%;
+        height: 110px;
+        margin-left: 5%;
+        margin-top:3px;
+
     }
 
     #d4{
@@ -730,8 +713,6 @@ h5{
         margin-top: 1px;
         filter:alpha(opacity=10);
         opacity: 0.8;
-        -moz-opacity:0.1;
-        -webkit-opacity:0.1;
     }
 
     #d4 img{
