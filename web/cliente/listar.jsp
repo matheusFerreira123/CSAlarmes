@@ -34,7 +34,7 @@
                     <td><%=cadaCliente.getCpf()%></td>
                     <td><%=cadaCliente.getNome()%></td>
                     <td>
-                        <a href="excluir.jsp?codigo=<%=cadaCliente.getCpf()%>">Excluir</a>
+                        <a href="excluir.jsp?cpf=<%=cadaCliente.getCpf()%>">Excluir</a>
                     </td>
                 </tr>
                 <%
