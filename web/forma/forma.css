@@ -16,7 +16,7 @@
     width: 20%;
     height: 250px;
     margin-left: 35%;
-    margin-top: 70px;
+    margin-top: 80px;
 }
 
 /*Imagem da area de Login*/
@@ -27,8 +27,9 @@
 
 /*Bloco preto transparente onde fica o login e senha na Área de Login*/
 #bloco{
-    margin-top: 10px;
-    margin-left: 160%;
+    width: 650px;
+    margin-top: 15px;
+    margin-left: 80%;
     background-color: black;
     opacity: 0.8;
     padding-top: 15px;
@@ -558,6 +559,15 @@ h5{
     border-radius: 8px;
 }
 
+.barra .threeline{
+    display: none;
+}
+
+.barra li.threeline:hover{
+    color: #1789FC;
+    cursor: pointer;
+}
+
 @media screen and (max-width: 768px){ 
     
     #miniatura1{
@@ -759,7 +769,28 @@ h5{
         margin-top: 80px;
         margin-right: 50px;
     }
+    
+    #validationimage{
+        width: 100%;
+    }
 
+    #imgI{
+        height: 30px;
+        margin-left: 20px;
+        margin-top: -70px;
+    }
+    
+    #bloco{
+        width: 400px;
+        margin-left: 210px;
+        margin-top: 300px;
+        padding-left: 10px;
+    }
+    
+    #bloco h5{
+        font-size: 13px;
+    }
+    
 }
 
 /*------------------------------------------------------------------------------------------------------------------*/
@@ -978,16 +1009,20 @@ h5{
 
     #rodape{
         width: 100%;
-        height: 110px;
+        height: 150px;
         background-color: black;
         float: left;
-
+        margin-top: 20px;
     }
 
     #fundo{
         width: 100%;
         height: 800px;
         background-image: url("../img/fundo.jpg");
+    }
+    
+    #imgrodape{
+        margin-top: 10px;
     }
 
     #iconrodape img{
@@ -997,7 +1032,55 @@ h5{
         margin-top: 50px;
         margin-right: 50px;
     }
-
+    
+     .barra li{
+        display: none;
+    }
+    
+    .barra li.threeline{
+        display: inline-block;
+    }
+    
+     .menujs{
+       height: auto;
+    }
+   
+    .menujs ul{
+        height: auto;
+        text-align: center;
+        padding-left: 15%;
+        padding-right: 15%;
+    }
+    
+    .menujs li{
+        display: block;
+        border-bottom: solid grey 1px;
+        width: 100%;
+        padding: 0;
+    }
+    
+    #validationimage{
+        height: 800px;
+        width: 100%;
+    }
+    
+    #imgI{
+        height: 20px;
+        margin-left: 5px;
+        margin-top: -70px;
+    }
+    
+    #bloco{
+        width: 500px;
+        margin-left: 125px;
+        margin-top: 300px;
+        padding-left: 10px;
+    }
+    
+    #bloco h5{
+        font-size: 16px;
+    }
+    
 }
 
 
