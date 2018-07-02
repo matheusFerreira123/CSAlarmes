@@ -1019,6 +1019,7 @@ a:hover{
         border-bottom: solid grey 1px;
         width: 100%;
         padding: 0;
+        background-color: black;
     }
     
     #validationimage{
