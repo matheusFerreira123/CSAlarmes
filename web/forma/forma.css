@@ -84,15 +84,30 @@
     padding-top: 6px;
     font-size: 19px;
 }
+
+#barra ul{
+    margin-top: 0;
+    list-style: none;
+    padding-left: 0;
+    height: 50px;
+}
+
+#barra li{
+    display: inline-block;
+    line-height: 50px;
+    font-size: 18px;
+    font-weight: 100;
+}
+
 #barra a{
     text-decoration: none;
 }
 
-a h5:link{
+a:link{
     color: white;
 }
 
-a h5:hover{
+a:hover{
     color: #0069d9;
 }
 /* ----------------Fim da Barra de Acesso------------------------ */
@@ -110,60 +125,7 @@ a h5:hover{
 }
 
 /*IDs dentro da Barra de Acesso */
-#imgM img{
-    width: 3.5%;
-    height: 39px;
-    margin-left: 10%;
-    float: left;
-}
-#a1{
 
-    width: 15%;
-    height: 36px;
-    margin-left: 6%;
-    float: left;
-}
-#a2{
-
-    width: 15%;
-    height: 36px;
-    margin-left: 0%;
-    float: left;
-}
-#a3{
-
-    width: 15%;
-    height: 36px;
-    margin-left: 0%;
-    float: left;
-}
-#a4{
-
-    width: 15%;
-    height: 36px;
-    margin-left: 0%;
-    float: left;
-}
-#a5{
-
-    width: 15%;
-    height: 36px;
-    margin-left: 0%;
-    float: left;
-}
-
-h1{
-    color: #000000;
-    font-family: arial bold;
-    font-size: 5em;
-}
-
-h5{
-    color: #ffffff;
-    font-family: arial bold;
-    font-size: 100%;
-    margin-top: 9px;
-}
 #b1 h4{
     color: #ffffff;
     font-family: arial bold;
