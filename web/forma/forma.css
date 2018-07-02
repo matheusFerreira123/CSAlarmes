@@ -174,7 +174,7 @@ h5{
 
 #boxLogoIndex{
     width: 100%;        /*Box da imagem home*/
-    height: 100%;
+    height: 630px;
     float: left;
 }
 
@@ -200,20 +200,20 @@ h5{
 
 #b1 p{
     font-family: 'Raleway', sans-serif;
-    font-size: 20px;
+    font-size: 1.2em;
     color: black;
     text-align: center;
 }
 
 #textb1{
     margin-top: 100px;
-    margin-left: 250px;
+    margin-left: 9%;
     height: 500px;
-    width: 850px;
+    width: 85%;
     background-color: white;
     padding-top: 20px;
     padding-bottom: 10px;
-    padding-left: 55px;
+
     padding-right: 50px;
     border-radius: 15px;
     border-color:#d2d2d2;
@@ -242,13 +242,46 @@ h5{
     color: black;
 }
 
-.miniatura{
-    width: 320px;
+#miniatura1{
+    width: 23%;
     height: 320px;
     display: inline-block;
     margin-top: 30px;
-    margin-right:3px;
-    margin-left: 10px;
+    margin-right:0.7%;
+    margin-left: 2%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden; 
+}
+#miniatura2{
+    width: 23%;
+    height: 320px;
+    display: inline-block;
+    margin-top: 30px;
+    margin-right:0.7%;
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden; 
+}
+#miniatura3{
+    width: 23%;
+    height: 320px;
+    display: inline-block;
+    margin-top: 30px;
+    margin-right:0.7%;
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden; 
+}
+#miniatura4{
+    width: 23%;
+    height: 320px;
+    display: inline-block;
+    margin-top: 30px;
+    margin-right:0.7%;
+
     background-size: cover;
     background-repeat: no-repeat;
     overflow: hidden; 
@@ -283,7 +316,7 @@ h5{
 #b2 .conteudoservicos p{
     color: white;
     font-family: 'Raleway', sans-serif;
-    font-size: 20px;
+    font-size: 1.1em;
 }
 
 #b2 .conteudoservicos h3{
@@ -299,7 +332,7 @@ h5{
     margin-top: 10px;
     margin-left: 10px;
     height: 720px;
-    width: 1320px;
+    width: 100%;
     background-color: rgba(0,0,0, 0.9);
     padding-top: 50px;
     padding-bottom: 10px;
@@ -312,10 +345,12 @@ h5{
 /*aplicativo*/
 #aplicativo{
     background-image: url(../img/fundo.jpg);
+    height: 800px;
     background-position: center;
     background-size: cover; 
+
     padding-top: 40px;
-    padding-bottom: 120px;
+
     margin-top: 5px;
 }
 
@@ -328,9 +363,9 @@ h5{
 }
 
 #appimage{
-    width: 750px;
+    width: 50%;
     height: 600px;
-    margin-left: 320px;
+    margin-left: 25%;
 }
 /* ---------------Fim do Aplicativo ------------------ */
 
@@ -340,7 +375,7 @@ h5{
     height: 200px;
     background-color: black;
     float: left;
-    margin-top: 10px;
+
 }
 
 #imgrodape img{
@@ -523,7 +558,96 @@ h5{
     border-radius: 8px;
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 768px){ 
+    
+    #miniatura1{
+    width: 46%;
+    height: 320px;
+    display: inline-block;
+    margin-top: 30px;
+    margin-right:0.7%;
+    margin-left: 2%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden; 
+}
+#miniatura2{
+    width: 46%;
+    height: 320px;
+    display: inline-block;
+    margin-top: 30px;
+    margin-right:0.7%;
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden; 
+}
+#miniatura3{
+    width: 46%;
+    height: 320px;
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 2%;
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden; 
+}
+#miniatura4{
+    width: 46%;
+    height: 320px;
+    display: inline-block;
+    margin-top: 10px;
+    
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden; 
+}
+
+    #aplicativo{
+        background-image: url(../img/fundo.jpg);
+        height: 570px;
+        background-position: center;
+        background-size: cover; 
+
+        padding-top: 40px;
+
+        margin-top: 5px;
+    }
+
+    #appimage{
+        width: 50%;
+        height: 400px;
+        margin-left: 25%;
+    }
+
+    #b2 .conteudoservicos p{
+        color: white;
+        font-family: 'Raleway', sans-serif;
+        font-size: 0.8em;
+    }
+
+    #boxLogoIndex{
+        width: 100%;        /*Box da imagem home*/
+        height: 400px;
+        float: left;
+    }
+
+    #boxLogoIndex img{
+        width: 100%;
+        height: 100%;    /*Box da imagem home (imagem)*/
+        margin-top: 50px;
+        float: left;
+    }
+
+    #b1 p{
+        font-family: 'Raleway', sans-serif;
+        font-size: 0.9em;
+        color: black;
+        margin-left: 9%;
+        text-align: center;
+    }
 
     #d1{
         width: 48%;
@@ -619,7 +743,7 @@ h5{
         height: 150px;
         background-color: black;
         float: left;
-        margin-top: 100px;
+
     }
 
     #fundo{
@@ -641,6 +765,95 @@ h5{
 /*------------------------------------------------------------------------------------------------------------------*/
 
 @media screen and (max-width: 481px){
+    
+    #miniatura1{
+    width: 46%;
+    height: 160px;
+    display: inline-block;
+    margin-top: 30px;
+    margin-right:0.7%;
+    margin-left: 2%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden; 
+}
+#miniatura2{
+    width: 46%;
+    height: 160px;
+    display: inline-block;
+    margin-top: 30px;
+    margin-right:0.7%;
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden; 
+}
+#miniatura3{
+    width: 46%;
+    height: 160px;
+    display: inline-block;
+    margin-top: 5px;
+    margin-left: 2%;
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden; 
+}
+#miniatura4{
+    width: 46%;
+    height: 160px;
+    display: inline-block;
+    margin-top: 5px;
+    margin-left: 2%;
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden; 
+}
+    
+    #aplicativo{
+        background-image: url(../img/fundo.jpg);
+        height: 365px;
+        background-position: center;
+        background-size: cover; 
+
+        padding-top: 40px;
+
+        margin-top: 5px;
+    }
+
+    #appimage{
+        width: 50%;
+        height: 200px;
+        margin-left: 25%;
+    }
+
+    #b2 .conteudoservicos p{
+        color: white;
+        font-family: 'Raleway', sans-serif;
+        font-size: 0.6em;
+    }
+
+    #boxLogoIndex{
+        width: 100%;        /*Box da imagem home*/
+        height: 200px;
+        float: left;
+    }
+
+    #boxLogoIndex img{
+        width: 100%;
+        height: 100%;    /*Box da imagem home (imagem)*/
+        margin-top: 50px;
+        float: left;
+    }
+
+    #b1 p{
+        font-family: 'Raleway', sans-serif;
+        font-size: 0.7em;
+        color: black;
+        margin-left: 9%;
+        text-align: center;
+    }
 
     #d1{
         width: 43%;
@@ -694,8 +907,8 @@ h5{
         filter:alpha(opacity=10);
         opacity: 0.8;
     }
-    
-        #d3 img{
+
+    #d3 img{
         width: 63%;
         height: 110px;
         margin-left: 5%;
@@ -768,7 +981,7 @@ h5{
         height: 110px;
         background-color: black;
         float: left;
-        margin-top: 100px;
+
     }
 
     #fundo{
