@@ -797,7 +797,7 @@ a:hover{
     }
 
     #barra li.threeline{
-        display: inline-box-align;
+        display: block;
         color: white;
         padding-top: 0;
     }
@@ -1067,11 +1067,11 @@ a:hover{
         margin-right: 50px;
     }
 
-    .barra li{
+    #barra li{
         display: none;
     }
 
-    .barra li.threeline{
+    #barra li.threeline{
         display: inline-block;
 
 
@@ -1093,7 +1093,7 @@ a:hover{
         border-bottom: solid grey 1px;
         width: 100%;
         padding: 0;
-        background-color: black;
+        background-color: rgba(0,0,0, 0.9);
     }
 
     #validationimage{
