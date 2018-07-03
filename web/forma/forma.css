@@ -12,17 +12,18 @@
 }
 
 /*Imagem da area de Login*/
-#imgI img{
-    width: 20%;
-    height: 250px;
+#imgM img{
+    width: 40px;
+    height: 35px;
     margin-left: 35%;
-    margin-top: 80px;
+    padding: 0;
 }
 
 /*Imagem da area de Login*/
-#imgI{
+#imgM{
     float: left;
     margin-left: 4%;
+    margin-top: -3px;
 }
 
 /*Bloco preto transparente onde fica o login e senha na Área de Login*/
@@ -85,21 +86,24 @@
     font-size: 19px;
 }
 
-#barra ul{
+.barra ul{
     margin-top: 0;
     list-style: none;
     padding-left: 0;
     height: 50px;
 }
 
-#barra li{
+.barra li{
     display: inline-block;
     line-height: 50px;
     font-size: 18px;
     font-weight: 100;
+    margin-left: 10%;
+    margin-top: 0px;
+    padding-top: 5px;
 }
 
-#barra a{
+.barra a{
     text-decoration: none;
 }
 
@@ -523,6 +527,7 @@ a:hover{
 
 .barra .threeline{
     display: none;
+    color: white;
 }
 
 .barra li.threeline:hover{
@@ -736,10 +741,10 @@ a:hover{
         width: 100%;
     }
 
-    #imgI{
+    #imgM img{
         height: 30px;
-        margin-left: 20px;
-        margin-top: -70px;
+        float: left;
+        margin-left: 51%;
     }
     
     #bloco{
@@ -753,11 +758,44 @@ a:hover{
         font-size: 13px;
     }
     
+    .barra li{
+        display: none;
+    }
+    
+    .barra li.threeline{
+        display: inline-block;
+        color: white;
+        padding-top: 0;
+    }
+    
+     .menujs{
+       height: auto;
+    }
+   
+    .menujs ul{
+        height: auto;
+        text-align: center;
+        padding-left: 15%;
+        padding-right: 15%;
+    }
+    
+    .menujs li{
+        display: block;
+        border-bottom: solid grey 1px;
+        width: 100%;
+        padding: 5px;
+        background-color: rgba(0,0,0, 0.9);
+    }
+     
 }
 
 /*------------------------------------------------------------------------------------------------------------------*/
 
 @media screen and (max-width: 481px){
+    
+    #imgM img{
+        width: 11%;
+    }
     
     #miniatura1{
     width: 46%;
@@ -1001,6 +1039,8 @@ a:hover{
     
     .barra li.threeline{
         display: inline-block;
+        
+        
     }
     
      .menujs{
