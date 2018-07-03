@@ -12,6 +12,16 @@
 }
 
 /*Imagem da area de Login*/
+
+#imglogin{
+    width: 30%;
+    height: 40px;
+    margin-left: 100px;
+}
+
+
+
+
 #imgM img{
     width: 40px;
     height: 35px;
@@ -19,7 +29,7 @@
     padding: 0;
 }
 
-/*Imagem da area de Login*/
+
 #imgM{
     float: left;
     margin-left: 4%;
