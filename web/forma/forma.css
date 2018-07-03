@@ -16,10 +16,14 @@
 #imglogin{
     width: 30%;
     height: 40px;
-    margin-left: 100px;
+    margin-left: 36%;
+    margin-top: 70px;
 }
 
-
+#imglogin img{
+    width: 26%;
+    height: 300px;
+}
 
 
 #imgM img{
@@ -39,7 +43,7 @@
 /*Bloco preto transparente onde fica o login e senha na Área de Login*/
 #bloco{
     width: 650px;
-    margin-top: 15px;
+    margin-top: 260px;
     margin-left: 80%;
     background-color: black;
     opacity: 0.8;
@@ -96,24 +100,26 @@
     font-size: 19px;
 }
 
-.barra ul{
+#barra ul{
     margin-top: 0;
     list-style: none;
     padding-left: 0;
     height: 50px;
+    margin-left: 11%;
+
 }
 
-.barra li{
+#barra li{
     display: inline-block;
     line-height: 50px;
     font-size: 18px;
     font-weight: 100;
-    margin-left: 10%;
+    margin-left: 6%;
     margin-top: 0px;
     padding-top: 5px;
 }
 
-.barra a{
+#barra a{
     text-decoration: none;
 }
 
@@ -535,62 +541,64 @@ a:hover{
     border-radius: 8px;
 }
 
-.barra .threeline{
+#barra .threeline{
     display: none;
     color: white;
+
 }
 
-.barra li.threeline:hover{
+#barra li.threeline:hover{
     color: #1789FC;
     cursor: pointer;
+
 }
 
 @media screen and (max-width: 768px){ 
-    
+
     #miniatura1{
-    width: 46%;
-    height: 320px;
-    display: inline-block;
-    margin-top: 30px;
-    margin-right:0.7%;
-    margin-left: 2%;
-    background-size: cover;
-    background-repeat: no-repeat;
-    overflow: hidden; 
-}
-#miniatura2{
-    width: 46%;
-    height: 320px;
-    display: inline-block;
-    margin-top: 30px;
-    margin-right:0.7%;
+        width: 46%;
+        height: 320px;
+        display: inline-block;
+        margin-top: 30px;
+        margin-right:0.7%;
+        margin-left: 2%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        overflow: hidden; 
+    }
+    #miniatura2{
+        width: 46%;
+        height: 320px;
+        display: inline-block;
+        margin-top: 30px;
+        margin-right:0.7%;
 
-    background-size: cover;
-    background-repeat: no-repeat;
-    overflow: hidden; 
-}
-#miniatura3{
-    width: 46%;
-    height: 320px;
-    display: inline-block;
-    margin-top: 10px;
-    margin-left: 2%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        overflow: hidden; 
+    }
+    #miniatura3{
+        width: 46%;
+        height: 320px;
+        display: inline-block;
+        margin-top: 10px;
+        margin-left: 2%;
 
-    background-size: cover;
-    background-repeat: no-repeat;
-    overflow: hidden; 
-}
-#miniatura4{
-    width: 46%;
-    height: 320px;
-    display: inline-block;
-    margin-top: 10px;
-    
+        background-size: cover;
+        background-repeat: no-repeat;
+        overflow: hidden; 
+    }
+    #miniatura4{
+        width: 46%;
+        height: 320px;
+        display: inline-block;
+        margin-top: 10px;
 
-    background-size: cover;
-    background-repeat: no-repeat;
-    overflow: hidden; 
-}
+
+        background-size: cover;
+        background-repeat: no-repeat;
+        overflow: hidden; 
+    }
 
     #aplicativo{
         background-image: url(../img/fundo.jpg);
@@ -746,49 +754,65 @@ a:hover{
         margin-top: 80px;
         margin-right: 50px;
     }
-    
+
     #validationimage{
         width: 100%;
+    }
+
+    imgM{
+        height: 30px;
+        width: 5%;
+        float: left;
+        margin-top: -10px;
     }
 
     #imgM img{
         height: 30px;
         float: left;
         margin-left: 51%;
+        margin-top: -40px;
     }
-    
+
     #bloco{
         width: 400px;
         margin-left: 210px;
         margin-top: 300px;
         padding-left: 10px;
     }
-    
+
     #bloco h5{
         font-size: 13px;
     }
-    
-    .barra li{
+
+    #barra ul{
+        margin-top: 0;
+        list-style: none;
+        padding-left: 0;
+        height: 50px;
+
+    }
+
+    #barra li{
         display: none;
     }
-    
-    .barra li.threeline{
-        display: inline-block;
+
+    #barra li.threeline{
+        display: inline-box-align;
         color: white;
         padding-top: 0;
     }
-    
-     .menujs{
-       height: auto;
+
+    .menujs{
+        height: auto;
     }
-   
+
     .menujs ul{
         height: auto;
         text-align: center;
         padding-left: 15%;
         padding-right: 15%;
     }
-    
+
     .menujs li{
         display: block;
         border-bottom: solid grey 1px;
@@ -796,62 +820,62 @@ a:hover{
         padding: 5px;
         background-color: rgba(0,0,0, 0.9);
     }
-     
+
 }
 
 /*------------------------------------------------------------------------------------------------------------------*/
 
 @media screen and (max-width: 481px){
-    
+
     #imgM img{
         width: 11%;
     }
-    
+
     #miniatura1{
-    width: 46%;
-    height: 160px;
-    display: inline-block;
-    margin-top: 30px;
-    margin-right:0.7%;
-    margin-left: 2%;
-    background-size: cover;
-    background-repeat: no-repeat;
-    overflow: hidden; 
-}
-#miniatura2{
-    width: 46%;
-    height: 160px;
-    display: inline-block;
-    margin-top: 30px;
-    margin-right:0.7%;
+        width: 46%;
+        height: 160px;
+        display: inline-block;
+        margin-top: 30px;
+        margin-right:0.7%;
+        margin-left: 2%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        overflow: hidden; 
+    }
+    #miniatura2{
+        width: 46%;
+        height: 160px;
+        display: inline-block;
+        margin-top: 30px;
+        margin-right:0.7%;
 
-    background-size: cover;
-    background-repeat: no-repeat;
-    overflow: hidden; 
-}
-#miniatura3{
-    width: 46%;
-    height: 160px;
-    display: inline-block;
-    margin-top: 5px;
-    margin-left: 2%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        overflow: hidden; 
+    }
+    #miniatura3{
+        width: 46%;
+        height: 160px;
+        display: inline-block;
+        margin-top: 5px;
+        margin-left: 2%;
 
-    background-size: cover;
-    background-repeat: no-repeat;
-    overflow: hidden; 
-}
-#miniatura4{
-    width: 46%;
-    height: 160px;
-    display: inline-block;
-    margin-top: 5px;
-    margin-left: 2%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        overflow: hidden; 
+    }
+    #miniatura4{
+        width: 46%;
+        height: 160px;
+        display: inline-block;
+        margin-top: 5px;
+        margin-left: 2%;
 
-    background-size: cover;
-    background-repeat: no-repeat;
-    overflow: hidden; 
-}
-    
+        background-size: cover;
+        background-repeat: no-repeat;
+        overflow: hidden; 
+    }
+
     #aplicativo{
         background-image: url(../img/fundo.jpg);
         height: 365px;
@@ -1030,7 +1054,7 @@ a:hover{
         height: 800px;
         background-image: url("../img/fundo.jpg");
     }
-    
+
     #imgrodape{
         margin-top: 10px;
     }
@@ -1042,28 +1066,28 @@ a:hover{
         margin-top: 50px;
         margin-right: 50px;
     }
-    
-     .barra li{
+
+    .barra li{
         display: none;
     }
-    
+
     .barra li.threeline{
         display: inline-block;
-        
-        
+
+
     }
-    
-     .menujs{
-       height: auto;
+
+    .menujs{
+        height: auto;
     }
-   
+
     .menujs ul{
         height: auto;
         text-align: center;
         padding-left: 15%;
         padding-right: 15%;
     }
-    
+
     .menujs li{
         display: block;
         border-bottom: solid grey 1px;
@@ -1071,29 +1095,29 @@ a:hover{
         padding: 0;
         background-color: black;
     }
-    
+
     #validationimage{
         height: 800px;
         width: 100%;
     }
-    
+
     #imgI{
         height: 20px;
         margin-left: 5px;
         margin-top: -70px;
     }
-    
+
     #bloco{
         width: 500px;
         margin-left: 125px;
         margin-top: 300px;
         padding-left: 10px;
     }
-    
+
     #bloco h5{
         font-size: 16px;
     }
-    
+
 }
 
 
