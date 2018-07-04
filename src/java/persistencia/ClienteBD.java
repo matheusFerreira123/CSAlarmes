@@ -58,6 +58,19 @@ public class ClienteBD {
         }
         return clienteEncontrado;
     }
+     public static Cliente getBySenha(String senha){
+        lerXml();
+        Cliente clienteEncontrado = null;
+        for(int i=0; i < lista.size(); i++){
+            Cliente cadaCliente = lista.get(i);
+            
+            if (cadaCliente.getSenha().equals(senha)){
+                clienteEncontrado = cadaCliente;
+                break;
+            }
+        }
+        return clienteEncontrado;
+    }
     
     private static void lerXml(){
         File arquivo=new File(caminho + "clientees.xml");

@@ -1,1 +1,9 @@
-<list/>
+<list>
+  <cliente>
+    <nome>gabi</nome>
+    <cpf>23432432423</cpf>
+    <telefone></telefone>
+    <endereco></endereco>
+    <senha></senha>
+  </cliente>
+</list>

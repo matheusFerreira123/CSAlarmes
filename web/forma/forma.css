@@ -17,7 +17,7 @@
     width: 30%;
     height: 40px;
     margin-left: 36%;
-    margin-top: 70px;
+    margin-top: 20px;
 }
 
 #imglogin img{
@@ -552,6 +552,41 @@ a:hover{
     cursor: pointer;
 
 }
+
+
+#imgCS img{
+    width: 9%;
+    height: 100px;
+    float: left;
+}
+
+#ref{
+    width: 80%;
+    height: 100px;
+    float: left;
+    margin-left: 40%;
+}
+#adm {
+    margin-left: 90%;
+    margin-top: 50px;
+}
+#adm img{
+    width: 10%;
+    height: 20px;
+}
+
+#imgArea{
+    width: 20%;
+    height: 200px;
+    margin-left: 40%;
+    
+}
+#imgArea img{
+    width: 100%;
+    height: 200px;
+}
+
+
 
 @media screen and (max-width: 768px){ 
 

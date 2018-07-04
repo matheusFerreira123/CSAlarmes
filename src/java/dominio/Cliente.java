@@ -8,6 +8,15 @@ public class Cliente {
    private String telefone;
    private String endereco;
    private String email;
+   private String senha;
+
+    public String getSenha() {
+        return senha;
+    }
+
+    public void setSenha(String senha) {
+        this.senha = senha;
+    }
 
     public String getNome() {
         return nome;
