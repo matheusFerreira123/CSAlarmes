@@ -14,4 +14,11 @@
     <nome>Gabriele Kiane Barbosa da Silva Mendes</nome>
     <telefone>(29)97230-125</telefone>
   </cliente>
+  <cliente>
+    <nome>Gabriele Kiane Barbosa da Silva Mendes</nome>
+    <cpf>111.111.111-11</cpf>
+    <telefone>(11)11111-1111</telefone>
+    <endereco>aaaaaaaa</endereco>
+    <senha>aaaaaaaa</senha>
+  </cliente>
 </list>

@@ -5,7 +5,7 @@ public class Sugestao {
    private String nome;
    private String telefone;
    private String email;
-   private String sugestao;
+   private String sugest;
 
     public String getNome() {
         return nome;
@@ -31,12 +31,12 @@ public class Sugestao {
         this.email = email;
     }
 
-    public String getSugestao() {
-        return sugestao;
-    }
+    public String getSugest() {
+        return sugest;
+    }   
 
-    public void setSugestão(String sugestao) {
-        this.sugestao = sugestao;
+    public void setSugest(String sugest) {
+        this.sugest = sugest;
     }
 
    

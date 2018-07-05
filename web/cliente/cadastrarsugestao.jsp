@@ -27,21 +27,31 @@
                             maxlength: 200,
                             string: true
                         },
-                       
-                    },
-                    submitHandler: function (formCadastro) {
-                        $.notify("Sucesso", "success");
+                        telefone: {
+                            minlength: 14,
+                            maxlength: 14
+                        },
+                        email: {
+                            required:true
+                        },
+                        sugestao: {
+                                required: true,
+                                minlength: 10,
+                                maxlength: 100
+                            }
                     }
+                
+            
                 });
             });
             </script>
         
-        <title>Cadastro de Clientes</title>
+        <title>Cadastro de Sugestões</title>
 
     </head>
     <body>
-        <h1 align="center">Cadastro de Clientes</h1>
-        <a href="listarsugestao.jsp"> Listar Clientes</a>
+        <h1 align="center">Cadastro de Sugestões</h1>
+        <a href="listarsugestao.jsp"> Listar Sugestões</a>
         <br/>
         <a href="../adm.html">Voltar</a>
         <br>
@@ -81,7 +91,7 @@
                 <h5 align="center">Sugestão</h5>
                 <textarea style="margin-left: 18%;"  type="text" name="sugestao" id="sugestao"  rows="10" cols="50"></textarea><br />
                         
-               <input id="btn" type="submit" name="Pronto!" value="Pronto!"  class="btn btn-outline-dark"/>
+               <input style="margin-left: 45%;" id="btn" type="submit" name="Pronto!" value="Pronto!"  class="btn btn-outline-dark"/>
                     </div>
 
             </div>

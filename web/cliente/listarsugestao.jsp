@@ -17,13 +17,12 @@
         <br/>
         <div style="margin-left: 5%;" id="btn"><a href="../adm.html"><h5>Voltar</h5></a></div>
         <%
-            ArrayList<Sugestao> lista = SugestaoBD.listar();
+            ArrayList<Sugestao> lista = SugestaoBD.listarsugestao();
         %>
         <table style="margin-left: 40%; margin-top: 100px;">
             <thead>
                 <tr>
                     <th><p>Nome</p></th>
-                    
                     <th><p>Email</p></th>
                     <th><p>Sugestão</p></th>
                 </tr>
@@ -38,8 +37,8 @@
             <div>
                 <p><%=cadaSugestao.getNome()%></p>
                 <p><%=cadaSugestao.getEmail()%></p>
-                <p><%=cadaSugestao.getSugestao()%></p>
-                <a href="excluir.jsp?nome=<%=cadaSugestao.getNome()%>"><input style="margin-left: 70%;" type="button" value="Excluir" class="btn btn-danger"</a>
+                <p><%=cadaSugestao.getSugest()%></p>
+                <a href="excluirsugestao.jsp?nome=<%=cadaSugestao.getNome()%>"><input style="margin-left: 70%;" type="button" value="Excluir" class="btn btn-danger"</a>
 
             </div>
             

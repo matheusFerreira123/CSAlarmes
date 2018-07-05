@@ -39,7 +39,7 @@ public class SugestaoBD {
         }
         salvarXml();
     }
-    public static ArrayList<Sugestao> listar(){     
+    public static ArrayList<Sugestao> listarsugestao(){     
         lerXml();
         //retorna todos os objetos do banco de dados
         return lista;
@@ -86,7 +86,7 @@ public class SugestaoBD {
     
     private static void salvarXml(){
         XStream xstream = new XStream();
-        xstream.alias("cliente",Sugestao.class);
+        xstream.alias("sugestao",Sugestao.class);
         try{
             FileWriter escritor=new FileWriter(caminho + "sugestoes.xml");
             escritor.write( xstream.toXML(lista) );

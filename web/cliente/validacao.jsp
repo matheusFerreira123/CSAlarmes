@@ -31,18 +31,18 @@
         <div id="validationimage" class="container-fluid">
             <div class="row">
                 <div class="col-2" id="adm">
-                    <a href="acesso.html"><img src="img/admin.png" alt=""/></a>
+                    <a href="../acesso.html"><img src="../img/admin.png" alt=""/></a>
                 </div>
-                
+
                 <div id="imglogin" class="col-12">
-                    <img src="img/oie_transparent.png" alt=""/>
+                    <img  src="../img/oie_transparent.png" alt=""/>
                   
                 </div>
                 
                 
                 <form id="form" name="form" class="form-group" action="validar.jsp" method="post">
                         
-                        <div id="bloco" class="col-6">
+                        <div id="bloco" style="margin-left: 70%;" class="col-6">
                             <div class="col-12">
                                 <h5>CPF</h5>
                                 <input type="text" name="cpf" id="cpf" class="form-control" style="width: 250px" />
@@ -53,7 +53,7 @@
                                 <input type="password" name="senha" id="senha" class="form-control" style="width: 250px"/>
                             </div>
 
-                            <input type="submit" name="enviar" value="Entrar" />
+                             <input style="margin-left: 30%;" id="btn" type="submit" name="Enviar" value="Enviar"  class="btn btn-outline-dark"/>
                         </div>
                     </form>
                 
