@@ -16,8 +16,8 @@
         <script type="text/javascript">
 
             $(document).ready(function () {
-                $("#telefone").mask("(00)00000-0000")
-                $("#cpf").mask("000.000.000-00")
+                $("#telefone").mask("(00)00000-0000");
+                $("#cpf").mask("000.000.000-00");
                 
                 $("#formCadastro").validate({
                     rules: {
@@ -27,25 +27,7 @@
                             maxlength: 200,
                             string: true
                         },
-                        cpf:{
-                            required: true,
-                            minlength: 10
-                            
-                        },
-                        endereco:{
-                            required: true
-                        },
-                        senha:{
-                            required: true,
-                            minlength: 8,
-                            maxlength: 8
-                        },
-                        csenha:{
-                            required: true,
-                            minlength: 8,
-                            maxlength: 8
-                        }
-
+                       
                     },
                     submitHandler: function (formCadastro) {
                         $.notify("Sucesso", "success");
@@ -59,7 +41,7 @@
     </head>
     <body>
         <h1 align="center">Cadastro de Clientes</h1>
-        <a href="listar.jsp"> Listar Clientes</a>
+        <a href="listarsugestao.jsp"> Listar Clientes</a>
         <br/>
         <a href="../adm.html">Voltar</a>
         <br>
@@ -77,43 +59,33 @@
 
         %>
         </div>
-        <form name="formCadastro" id="formCadastro" class="form-group" method="post" action="inserir.jsp">
+        <form name="formCadastro" id="formCadastro" class="form-group" method="post" action="inserirsugestao.jsp">
 
             <div style="margin-left: 25%;" class="col-6">
                 <h5 align="center">Nome</h5>
                 <input type="text" name="nome" id="nome" class="form-control"/>
 
             </div>
-            
-            <div style="margin-left: 25%;" class="col-6">
-                <h5 align="center">Cpf</h5>
-                <input type="text" name="cpf" id="cpf" class="form-control"/>
 
-            </div>
             <div style="margin-left: 25%;" class="col-6">
                 <h5 align="center">Telefone</h5>
                 <input type="tel" name="telefone" id="telefone" class="form-control"/>
 
             </div>
             <div style="margin-left: 25%;" class="col-6">
-                <h5 align="center">Endereço</h5>
-                <input type="text" name="endereco" id="endereco" class="form-control"/>
+                <h5 align="center">Email</h5>
+                <input type="text" name="email" id="email" class="form-control"/>
 
             </div>
             <div style="margin-left: 25%;" class="col-6">
-                <h5 align="center">senha</h5>
-                <input type="password" name="senha" id="senha" class="form-control"/>
+                <h5 align="center">Sugestão</h5>
+                <textarea style="margin-left: 18%;"  type="text" name="sugestao" id="sugestao"  rows="10" cols="50"></textarea><br />
+                        
+               <input id="btn" type="submit" name="Pronto!" value="Pronto!"  class="btn btn-outline-dark"/>
+                    </div>
 
             </div>
-            <div style="margin-left: 25%;" class="col-6">
-                <h5 align="center">Confirmar Senha</h5>
-                <input type="password" name="csenha" id="csenha" class="form-control"/>
-
-            </div>
-            <br/>
-            <div style="margin-left: 47%;" class="col-6">
-            <input type="submit" value="Salvar" class="btn btn-group"/>
-            </div>
+            
         </form>
     </body>
 </html>

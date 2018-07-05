@@ -6,4 +6,12 @@
     <endereco></endereco>
     <senha></senha>
   </cliente>
+  <cliente>
+    <nome>Gabriele Kiane Barbosa da Silva Mendes</nome>
+    <telefone>(11)11111-1111</telefone>
+  </cliente>
+  <cliente>
+    <nome>Gabriele Kiane Barbosa da Silva Mendes</nome>
+    <telefone>(29)97230-125</telefone>
+  </cliente>
 </list>
