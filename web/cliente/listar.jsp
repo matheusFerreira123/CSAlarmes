@@ -22,10 +22,10 @@
         <table style="margin-left: 40%; margin-top: 100px;">
             <thead>
                 <tr>
-                    <th><p style="margin-left: 10%">Cpf</p></th>
-                    <th><p style="margin-right: 30%;">Nome</p></th>
-                    <th><p style="margin-left: 30%;">Telefone</p></th>
-                    <th><p style="margin-left: 30%;"></p></th>
+                    <th><p>Cpf</p></th>
+                    <th><p>Nome</p></th>
+                    <th><p>Telefone</p></th>
+                    <th><p></p></th>
                 </tr>
             </thead>
             <tbody>
@@ -37,7 +37,7 @@
                 
                 <tr>
                     <td><%=cadaCliente.getCpf()%></td>
-                    <td style="margin-left: 20%"><%=cadaCliente.getNome()%></td>
+                    <td><%=cadaCliente.getNome()%></td>
                     <td><%=cadaCliente.getTelefone()%></td>
                     <td>
                         <a href="excluir.jsp?cpf=<%=cadaCliente.getCpf()%>"><input style="margin-left: 70%;" type="button" value="Excluir" class="btn btn-danger"</a>

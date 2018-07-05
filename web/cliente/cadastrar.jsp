@@ -29,29 +29,29 @@
                         },
                         cpf:{
                             required: true,
-                            minlength: 10,
+                            minlength: 10
                             
                         },
                         endereco:{
-                            required: true,
+                            required: true
                         },
                         senha:{
                             required: true,
                             minlength: 8,
-                            maxlength: 8,
+                            maxlength: 8
                         },
                         csenha:{
                             required: true,
                             minlength: 8,
-                            maxlength: 8,
+                            maxlength: 8
                         }
 
                     },
-                    submitHandler: function (form) {
-                        $.notify("Sucesso", "success")
+                    submitHandler: function (formCadastro) {
+                        $.notify("Sucesso", "success");
                     }
-                })
-            }
+                });
+            });
             </script>
         
         <title>Cadastro de Clientes</title>
