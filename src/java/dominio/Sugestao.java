@@ -2,10 +2,19 @@ package dominio;
 
 
 public class Sugestao {
+   private int codigo;
    private String nome;
    private String telefone;
    private String email;
    private String sugest;
+
+    public int getCodigo() {
+        return codigo;
+    }
+
+    public void setCodigo(int codigo) {
+        this.codigo = codigo;
+    }
 
     public String getNome() {
         return nome;

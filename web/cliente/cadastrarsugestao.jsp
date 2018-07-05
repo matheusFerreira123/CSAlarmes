@@ -34,7 +34,7 @@
                         email: {
                             required:true
                         },
-                        sugestao: {
+                        sugest: {
                                 required: true,
                                 minlength: 10,
                                 maxlength: 100
@@ -89,7 +89,7 @@
             </div>
             <div style="margin-left: 25%;" class="col-6">
                 <h5 align="center">Sugestão</h5>
-                <textarea style="margin-left: 18%;"  type="text" name="sugestao" id="sugestao"  rows="10" cols="50"></textarea><br />
+                <textarea style="margin-left: 18%;"  type="text" name="sugest" id="sugest"  rows="10" cols="50"></textarea><br />
                         
                <input style="margin-left: 45%;" id="btn" type="submit" name="Pronto!" value="Pronto!"  class="btn btn-outline-dark"/>
                     </div>

@@ -25,6 +25,7 @@
                     <th><p>Nome</p></th>
                     <th><p>Email</p></th>
                     <th><p>Sugestão</p></th>
+                    <th><p></p></th>
                 </tr>
             </thead>
             <tbody>

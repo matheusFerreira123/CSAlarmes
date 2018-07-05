@@ -18,22 +18,16 @@ public class SugestaoBD {
         lista.add(sugestao); // adiciona um cliente na lista
         salvarXml(); // atualiza o XML com a que tem na lista
     }
-    
-    public static void alterar(Sugestao sugestao){
-        lerXml(); 
-        excluirsugestao(sugestao.getNome());
-        inserirsugestao(sugestao);
-        salvarXml();
-    }
+
     
     //recebe o atributo que identifica cada objeto
     //da classe Sugestao
-    public static void excluirsugestao(String nome){
+    public static void excluirsugestao(int codigo){
         lerXml();
         for(int i=0; i < lista.size(); i++){
             Sugestao cadaSugestao = lista.get(i);
             
-            if (cadaSugestao.getNome().equals(nome)){
+            if (cadaSugestao.getCodigo() == codigo){
                 lista.remove(i);
             }
         }
@@ -58,19 +52,7 @@ public class SugestaoBD {
         }
         return clienteEncontrado;
     }
-     public static Sugestao getBySenha(String nome){
-        lerXml();
-        Sugestao clienteEncontrado = null;
-        for(int i=0; i < lista.size(); i++){
-            Sugestao cadaSugestao = lista.get(i);
-            
-            if (cadaSugestao.getNome().equals(nome)){
-                clienteEncontrado = cadaSugestao;
-                break;
-            }
-        }
-        return clienteEncontrado;
-    }
+  
     
     private static void lerXml(){
         File arquivo=new File(caminho + "sugestoes.xml");
