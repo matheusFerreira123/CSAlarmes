@@ -74,7 +74,7 @@
             </div>
             <div style="margin-left: 25%;" class="col-6">
                 <h5 align="center">Email</h5>
-                <input type="text" name="email" id="email" class="form-control"/>
+                <input type="email" name="email" id="email" class="form-control"/>
 
             </div>
             <div style="margin-left: 25%;" class="col-6">
