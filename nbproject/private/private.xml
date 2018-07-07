@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/D:/CSAlarmes-master/src/java/persistencia/AdminBD.java</file>
+            <file>file:/D:/CSAlarmes-master/src/java/persistencia/SugestaoBD.java</file>
+            <file>file:/D:/CSAlarmes-master/src/conf/MANIFEST.MF</file>
+            <file>file:/D:/CSAlarmes-master/web/cliente/cadastrarsugestao.jsp</file>
+            <file>file:/D:/CSAlarmes-master/web/acesso.html</file>
+            <file>file:/D:/CSAlarmes-master/web/cliente/validar.jsp</file>
+            <file>file:/D:/CSAlarmes-master/web/cliente/listarsugestao.jsp</file>
+            <file>file:/D:/CSAlarmes-master/src/java/dominio/Sugestao.java</file>
+            <file>file:/D:/CSAlarmes-master/web/cliente/cadastrar.jsp</file>
+            <file>file:/D:/CSAlarmes-master/web/admin/login.jsp</file>
+            <file>file:/D:/CSAlarmes-master/src/java/dominio/Admin.java</file>
+            <file>file:/D:/CSAlarmes-master/web/admin/validar.jsp</file>
+            <file>file:/D:/CSAlarmes-master/src/java/dominio/Cliente.java</file>
+            <file>file:/D:/CSAlarmes-master/web/cliente/excluirsugestao.jsp</file>
+            <file>file:/D:/CSAlarmes-master/src/java/persistencia/ClienteBD.java</file>
+            <file>file:/D:/CSAlarmes-master/web/cliente/inserirsugestao.jsp</file>
+            <file>file:/D:/CSAlarmes-master/web/cliente/excluir.jsp</file>
+            <file>file:/D:/CSAlarmes-master/web/cliente/validacao.jsp</file>
+            <file>file:/D:/CSAlarmes-master/web/cliente/inserir.jsp</file>
+            <file>file:/D:/CSAlarmes-master/web/index.html</file>
+        </group>
+    </open-files>
+</project-private>

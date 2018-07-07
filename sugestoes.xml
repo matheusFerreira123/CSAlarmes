@@ -1,7 +1,15 @@
 <list>
-  <cliente>
+  <sugestao>
+    <codigo>0</codigo>
     <nome>Gabriele Kiane Barbosa da Silva Mendes</nome>
     <telefone>(29)97230-125</telefone>
     <email>gaby.meendees@gmail.com</email>
-  </cliente>
+  </sugestao>
+  <sugestao>
+    <codigo>0</codigo>
+    <nome>teste45645645656</nome>
+    <telefone>(31)23123-1232</telefone>
+    <email>admin@camargosilva.com</email>
+    <sugest>olaaaaaaaaaaaaa</sugest>
+  </sugestao>
 </list>

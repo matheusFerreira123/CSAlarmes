@@ -1,20 +1,5 @@
 <list>
   <cliente>
-    <nome>gabi</nome>
-    <cpf>23432432423</cpf>
-    <telefone></telefone>
-    <endereco></endereco>
-    <senha></senha>
-  </cliente>
-  <cliente>
-    <nome>Gabriele Kiane Barbosa da Silva Mendes</nome>
-    <telefone>(11)11111-1111</telefone>
-  </cliente>
-  <cliente>
-    <nome>Gabriele Kiane Barbosa da Silva Mendes</nome>
-    <telefone>(29)97230-125</telefone>
-  </cliente>
-  <cliente>
     <nome>Gabriele Kiane Barbosa da Silva Mendes</nome>
     <cpf>111.111.111-11</cpf>
     <telefone>(11)11111-1111</telefone>
@@ -32,7 +17,14 @@
     <nome>matheus ferreira</nome>
     <cpf>123</cpf>
     <telefone>(44)44444-44</telefone>
-    <endereco>kkçkojojkl</endereco>
+    <endereco>kk?kojojkl</endereco>
+    <senha>12345678</senha>
+  </cliente>
+  <cliente>
+    <nome>teste313213123</nome>
+    <cpf>323.123.123-12</cpf>
+    <telefone>(31)23123-1232</telefone>
+    <endereco>32321321</endereco>
     <senha>12345678</senha>
   </cliente>
 </list>

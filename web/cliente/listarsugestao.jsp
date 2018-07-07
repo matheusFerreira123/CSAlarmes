@@ -41,7 +41,7 @@
                     <td><%=cadaSugestao.getEmail()%></td>
                     <td><%=cadaSugestao.getSugest()%></td>
                     <td>
-                        <a href="excluirsugestao.jsp?nome=<%=cadaSugestao.getNome()%>"><input style="margin-left: 70%;" type="button" value="Excluir" class="btn btn-danger"</a>
+                        <a href="excluirsugestao.jsp?id=<%=cadaSugestao.getCodigo()%>"><input style="margin-left: 70%;" type="button" value="Excluir" class="btn btn-danger"</a>
                     </td>
                 </tr>
             

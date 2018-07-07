@@ -1,6 +1,6 @@
 <%@page import="persistencia.SugestaoBD"%>
 <%
-    String nome = request.getParameter("nome");
-    SugestaoBD.excluirsugestao(nome);
+    String id = request.getParameter("id");
+    SugestaoBD.excluirsugestao(Integer.parseInt(id));
     response.sendRedirect("listarsugestao.jsp");
 %>

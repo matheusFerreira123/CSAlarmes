@@ -8,7 +8,7 @@ import java.util.ArrayList;
 
 public class SugestaoBD {
     
-    private static String caminho = "C:\\Users\\casas bahia\\Documents\\NetBeansProjects\\csalarmes\\csalarmes\\";
+    private static String caminho = "D:\\CSAlarmes-master\\";
     
     private static ArrayList<Sugestao> lista = new ArrayList<Sugestao>();
     //adiciona um objeto da classe Sugestao 
