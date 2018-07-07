@@ -35,13 +35,15 @@
                         Sugestao cadaSugestao = lista.get(i);
                 %>
 
-            <div>
-                <p><%=cadaSugestao.getNome()%></p>
-                <p><%=cadaSugestao.getEmail()%></p>
-                <p><%=cadaSugestao.getSugest()%></p>
-                <a href="excluirsugestao.jsp?nome=<%=cadaSugestao.getNome()%>"><input style="margin-left: 70%;" type="button" value="Excluir" class="btn btn-danger"</a>
-
-            </div>
+           
+            <tr>
+                    <td><%=cadaSugestao.getNome()%></td>
+                    <td><%=cadaSugestao.getEmail()%></td>
+                    <td><%=cadaSugestao.getSugest()%></td>
+                    <td>
+                        <a href="excluirsugestao.jsp?nome=<%=cadaSugestao.getNome()%>"><input style="margin-left: 70%;" type="button" value="Excluir" class="btn btn-danger"</a>
+                    </td>
+                </tr>
             
             <%
                 }

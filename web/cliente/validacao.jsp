@@ -23,6 +23,13 @@
         
         <link rel="icon" href="img/cs.ico" type="image/x-icon" />
         <link rel="shortcut icon" href="img/cs.ico" type="image/x-icon" />
+        <script type="text/javascript">
+
+            $(document).ready(function () {
+                
+                $("#cpf").mask("000.000.000-00")
+            });
+            </script>
        
     </head>
     
@@ -40,7 +47,7 @@
                 </div>
                 
                 
-                <form id="form" name="form" class="form-group" action="validar.jsp" method="post">
+                <form id="form" name="form" class="form-group" action="validar.jsp">
                         
                         <div id="bloco" style="margin-left: 70%;" class="col-6">
                             <div class="col-12">
@@ -53,7 +60,7 @@
                                 <input type="password" name="senha" id="senha" class="form-control" style="width: 250px"/>
                             </div>
 
-                             <input style="margin-left: 30%;" id="btn" type="submit" name="Enviar" value="Enviar"  class="btn btn-outline-dark"/>
+                            <input style="margin-left: 30%;" id="btn" type="submit" name="Enviar" value="Enviar"  class="btn btn-outline-dark"/>
                         </div>
                     </form>
                 
